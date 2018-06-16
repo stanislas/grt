@@ -2,6 +2,4 @@
 
 set -e
 
-env
-
 go vet
