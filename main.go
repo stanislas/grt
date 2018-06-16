@@ -9,5 +9,5 @@ var (
 
 
 func main() {
-    fmt.Printf("%v\n", version)
+    fmt.Printf("Version: %v\n", version)
 }
