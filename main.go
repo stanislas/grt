@@ -1,5 +1,13 @@
 package main
+
 import "fmt"
+
+
+var (
+	version = "dev"
+)
+
+
 func main() {
-    fmt.Println("hello world")
+    fmt.Printf("%v\n", version)
 }
